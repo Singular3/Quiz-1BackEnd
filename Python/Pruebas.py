@@ -1,4 +1,6 @@
-print("hola mundo")
+frutas = ["manzana", "banana", "naranja", "kiwi", "mango"]
 
-if 5 > 3:
- print("5 es mayor que 3")
+for indice, fruta in enumerate(frutas):
+    print(f"Índice: {indice}, Fruta: {fruta}")
+
+
